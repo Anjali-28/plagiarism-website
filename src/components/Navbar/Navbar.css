@@ -1,0 +1,40 @@
+.navbar {
+    height: 80px;
+    background-color: var(--tertiary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar__container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+}
+
+.nav__logo {
+    width: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.nav__btns {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__btns button {
+    background-color: #ffffff;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: var(--primary-font);
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: var(--tertiary-color);
+}

@@ -1,0 +1,19 @@
+.home {
+    height: 100vh;
+    background-color: var(--bg-color);
+}
+.home h1 {
+    color: var(--primary-color);
+};
+.homesect1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home__logo1 {
+    width: 600px;
+    cursor: pointer;
+    padding: 1rem 3rem;
+}
