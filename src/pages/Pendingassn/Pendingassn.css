@@ -1,0 +1,21 @@
+.Pendingassn {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* flex-wrap: wrap; */
+    gap: 2rem;
+    padding: 2rem;
+    margin-left: 2rem;
+}
+
+.pending_cards {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.pending_head h1 {
+    font-size: 2.7rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

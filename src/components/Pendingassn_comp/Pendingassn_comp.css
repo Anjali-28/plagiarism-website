@@ -1,0 +1,85 @@
+.Pendingassn_comp {
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+    box-shadow: 5px 5px 10px -6px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.pending_img {
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.pending_body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.pending_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pending_title h1 {
+    text-align: left;
+    margin-bottom: -2rem;
+    color: brown;
+}
+
+.pending_deadline{
+    display: flex;  
+    flex-direction: column;
+    gap: .25rem;
+    margin-top: 0.5rem;
+}
+
+.subject_heading{
+    font-size: 1.2rem;
+    color: black;
+    /* align-items: flex-start; */
+    /* text-align: left; */
+}
+
+.deadline_det{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.deadline_det h1 {
+    font-size: 1.2rem;
+}
+
+.deadline_icon{
+    font-size: 1.2rem;
+}
+
+.pending_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.pending_sub_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    padding: .3rem;
+    font-weight: 600;    
+    font-size: 1rem;
+    border-radius: 7px;
+    border: none;
+    background-color: brown;
+    color: #ffffff;
+}

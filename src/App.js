@@ -2,7 +2,7 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Navbar } from './components';
 
-import { Landing, Login, Signup, Contact, TeacherLogin, TeacherSignup, StudentProfile } from './pages';
+import { Pendingassn, Submitassn, Landing, Login, Signup, Contact, TeacherLogin, TeacherSignup, StudentProfile } from './pages';
 
 function App() {
   return (
@@ -17,7 +17,8 @@ function App() {
           <Route path="/teacherlogin" element={<TeacherLogin/>}/>
           <Route path="/teachersignup" element={<TeacherSignup/>}/>
           <Route path="/studentprofile" element={<StudentProfile/>}/>
-          
+          <Route path="/pendingassn" element={<Pendingassn />} />
+          <Route path="/submitassn" element={<Submitassn />} />
         </Routes>
       </BrowserRouter>
     </div>
