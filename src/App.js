@@ -2,7 +2,7 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Navbar } from './components';
 
-import { Landing, Login, Signup } from './pages'
+import { Landing, Login, Signup, Contact, TeacherLogin, TeacherSignup, StudentProfile } from './pages';
 
 function App() {
   return (
@@ -13,6 +13,12 @@ function App() {
           <Route path="/" element={<Landing />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/contactus" element={<Contact/>}/>
+          <Route path="/teacherlogin" element={<TeacherLogin/>}/>
+          <Route path="/teachersignup" element={<TeacherSignup/>}/>
+          {/* <Route path="/studentprofile" element={<StudentProfile/>}/>
+           */}
+          
         </Routes>
       </BrowserRouter>
     </div>
