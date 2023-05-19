@@ -1,6 +1,7 @@
 // import axios from 'axios'
 import React, { useState } from 'react'
 import './Signup.css'
+import { Link } from 'react-router-dom'
 // import { BsEye, BsEyeSlash } from 'react-icons/bs'
 const Signup = () => {
     
@@ -87,7 +88,9 @@ const Signup = () => {
                             <input className='admin_input' type={showPass ? 'text' : 'password'}  value={password} onChange={e => setPassword(e.target.value)} />
                             {/* {showPass ? <BsEye className='admin_input_eye' onClick={toggleShowPass}/> : <BsEyeSlash className='admin_input_eye' onClick={toggleShowPass}/>} */}
                         </div>
+                        <Link to={"/StudentProfile"}>
                         <button className='admin_button_register'>Register</button>
+                        </Link>
                         
                         
         </div>

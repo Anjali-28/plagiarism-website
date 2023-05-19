@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import './Navbar.css'
 import { useContext } from 'react'
 import { NavLink, useNavigate } from 'react-router-dom'
+import logo from '../../assets/logo.png'
 
 import { TabContext } from '../../contexts/TabContext'
 
@@ -15,7 +16,7 @@ function Navbar() {
     <div className='navbar'>
         <div className='navbar__container'>
           <Link to='/'>
-            <img src="https://avatars.githubusercontent.com/u/43471295?v=4" alt="" className='nav__logo' />
+            <img src={logo} alt="" className='nav__logo' />
           </Link>
     <div className='navbar_comp'>
      <div className='navbar_links'>
