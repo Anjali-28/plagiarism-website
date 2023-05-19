@@ -9,6 +9,7 @@ function HomeCard({ image, title, desc }) {
         <div className="home_content">
             <span className="home_title">{title}</span>
             <p className="home_description">{desc}</p>
+            <div className='h_btns'><button>Get Started</button></div>
         </div>
     </div>
   )

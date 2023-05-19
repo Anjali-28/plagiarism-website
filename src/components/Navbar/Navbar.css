@@ -38,3 +38,31 @@
     outline: none;
     color: var(--tertiary-color);
 }
+.navbar_comp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+    background-color: #ffffff;
+    bottom: 30px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    height: 60px;
+    margin: 90px;
+    border-radius: 2px;
+    margin-bottom: -30px;
+    position: relative;
+}
+
+.nav_links {
+    padding: 55px;   
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+    color:var(--tertiary-color);
+    text-decoration: none;
+}
+
+    

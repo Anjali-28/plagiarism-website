@@ -1,6 +1,7 @@
 // import axios from 'axios'
 import React, { useState } from 'react'
 import './Signup.css'
+import { Link } from 'react-router-dom'
 // import { BsEye, BsEyeSlash } from 'react-icons/bs'
 const Signup = () => {
     
@@ -33,8 +34,8 @@ const Signup = () => {
     } */
 
     return (
-        <div>
-            <h2>Register</h2>
+        <div className='admin_container'> 
+            <h2>Sign Up</h2>
            {/* <form onSubmit={submitHandler} className="admin_form_container"> */}
 
                         <div className='admin_input_container'>
@@ -58,7 +59,7 @@ const Signup = () => {
 
 
 
-                        <div className='admin_input_container'>
+                       {/*  <div className='admin_input_container'>
                             <label className='admin_label'>Faculty</label>
                             <select className='admin_input' id="admin_input" name="admin_label" value={faculty} onChange={e=> setFaculty(e.target.value)}>
                             
@@ -66,7 +67,7 @@ const Signup = () => {
                             <option value="true">Yes</option>
                             </select>
 
-                        </div>
+                        </div> */}
 
 
                         <div className='admin_input_container'>
@@ -87,10 +88,13 @@ const Signup = () => {
                             <input className='admin_input' type={showPass ? 'text' : 'password'}  value={password} onChange={e => setPassword(e.target.value)} />
                             {/* {showPass ? <BsEye className='admin_input_eye' onClick={toggleShowPass}/> : <BsEyeSlash className='admin_input_eye' onClick={toggleShowPass}/>} */}
                         </div>
+                        <Link to={"/StudentProfile"}>
                         <button className='admin_button_register'>Register</button>
+                        </Link>
+                        
                         
         </div>
     )
 }
 
-export default Signup;
+export default Signup
