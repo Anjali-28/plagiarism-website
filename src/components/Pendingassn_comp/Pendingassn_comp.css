@@ -30,7 +30,6 @@
 
 .pending_title h1 {
     text-align: left;
-    margin-bottom: -2rem;
     color: brown;
 }
 
@@ -56,6 +55,7 @@
 
 .deadline_det h1 {
     font-size: 1.2rem;
+    color: black;
 }
 
 .deadline_icon{
