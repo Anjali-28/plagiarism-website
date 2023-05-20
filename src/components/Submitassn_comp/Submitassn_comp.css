@@ -1,13 +1,14 @@
 .Submitassn_comp {
     display: flex;
     flex-direction: column;
-    width: 45%;
+    width: 40%;
     justify-content: center;
-    align-items: stretch;
+    align-items: center;
     gap: 2rem;
     box-shadow: 5px 5px 10px -6px rgba(0,0,0,0.75);
     border-radius: 10px;
     padding: 1rem;
+    height: 200px;
 }
 
 .submitassn_btn {
@@ -24,10 +25,23 @@
     color: #ffffff;
 }
 
+.submit_head {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
 .submit_head h2 {
     display: flex;
     flex-direction: column;
     width: 45%;
     justify-content: center;
     align-items: stretch;
+}
+
+.form_sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .6rem;
 }
