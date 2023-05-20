@@ -14,6 +14,9 @@ function Subcomplete() {
             <Subcomplete_comp />
             <Subcomplete_comp />
         </div>
+        <div className='check_button'>
+                <button className='plag_check_btn'>Check Plagiarism</button>
+            </div>
     </div>
   )
 }

@@ -8,3 +8,28 @@
 .h1{
     color: var(--secondary-color);
 }
+
+.check_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+    margin-top: 1rem;
+
+}
+
+.plag_check_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: fit-content;
+    padding: .6rem;
+    font-weight: 600;    
+    font-size: 1rem;
+    border-radius: 7px;
+    border: none;
+    background-color: brown;
+    color: #ffffff;
+    cursor: pointer;
+}
