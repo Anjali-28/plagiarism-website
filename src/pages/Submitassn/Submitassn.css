@@ -1,0 +1,8 @@
+.Submitassn {
+   display: flex; 
+   flex-direction: column;
+   width: 100%;
+   /* flex-wrap: wrap; */
+   gap: 2rem;
+   padding: 2rem;
+}
