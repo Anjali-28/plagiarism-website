@@ -36,9 +36,12 @@ function Submitassn_comp() {
         <div className='submit_head'>
             <h2>Submit assignment</h2>
         </div>
+
         <form onSubmit={handleUpload}>
+        <div className='form_sub'>
             <input type="file" name="file" onChange={handleFile}/>
             <button className='submitassn_btn'>Upload</button>
+        </div>
         </form>
     </div>
   )

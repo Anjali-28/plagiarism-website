@@ -1,8 +1,11 @@
 .Submitassn {
    display: flex; 
-   flex-direction: column;
+   /* flex-direction: column; */
    width: 100%;
    /* flex-wrap: wrap; */
    gap: 2rem;
    padding: 2rem;
+   justify-content: center;
+   /* align-items: center; */
+   height: 100vh;
 }
