@@ -53,7 +53,9 @@ const TeacherSignup = () => {
                             <input className='admin_input' type={showPass ? 'text' : 'password'}  value={password} onChange={e => setPassword(e.target.value)} />
                             {/* {showPass ? <BsEye className='admin_input_eye' onClick={toggleShowPass}/> : <BsEyeSlash className='admin_input_eye' onClick={toggleShowPass}/>} */}
                         </div>
+                        <Link to='/teacherprofile'>
                         <button className='admin_button_register'>Register</button>
+                        </Link>
                         <Link to='/teacherlogin'>
                         <button className='admin_button_register'>Already have an account? Log In</button>
                         </Link>

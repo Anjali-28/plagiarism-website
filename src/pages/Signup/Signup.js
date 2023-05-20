@@ -59,15 +59,7 @@ const Signup = () => {
 
 
 
-                       {/*  <div className='admin_input_container'>
-                            <label className='admin_label'>Faculty</label>
-                            <select className='admin_input' id="admin_input" name="admin_label" value={faculty} onChange={e=> setFaculty(e.target.value)}>
-                            
-                            <option value="false">No</option>
-                            <option value="true">Yes</option>
-                            </select>
-
-                        </div> */}
+         
 
 
                         <div className='admin_input_container'>

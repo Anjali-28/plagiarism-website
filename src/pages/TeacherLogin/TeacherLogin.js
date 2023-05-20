@@ -2,6 +2,7 @@
 import React, { useState } from 'react'
 // import { BsEye, BsEyeSlash } from 'react-icons/bs'
 import './TeacherLogin.css'
+import { Link } from 'react-router-dom'
 
 const TeacherLogin = () => {
 
@@ -27,7 +28,8 @@ const TeacherLogin = () => {
                             <input className='admin_input' type={showPass ? 'text' : 'password'} placeholder="***" value={password} onChange={e => setPassword(e.target.value)} />
                             {/* {showPass ? <BsEye className='admin_input_eye' onClick={toggleShowPass}/> : <BsEyeSlash className='admin_input_eye' onClick={toggleShowPass}/>} */}
                         </div>
-                        <button className='admin_button_login'>Login</button>
+                        <Link to='/teacherprofile'>
+                        <button className='admin_button_login'>Login</button></Link>
                 
         </div>
     )

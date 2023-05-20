@@ -2,7 +2,7 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Navbar } from './components';
 
-import { Subcomplete, Pendingassn, Submitassn, Landing, Login, Signup, Contact, TeacherLogin, TeacherSignup, StudentProfile } from './pages';
+import { Subcomplete, Pendingassn, Submitassn, Landing, Login, Signup, Contact, TeacherLogin, TeacherSignup, StudentProfile, TeacherProfile} from './pages';
 
 function App() {
   return (
@@ -20,6 +20,7 @@ function App() {
           <Route path="/pendingassn" element={<Pendingassn />} />
           <Route path="/submitassn" element={<Submitassn />} />
           <Route path="/subcomplete" element={<Subcomplete />} />
+          <Route path="/teacherprofile" element={<TeacherProfile/>}/>
         </Routes>
       </BrowserRouter>
     </div>

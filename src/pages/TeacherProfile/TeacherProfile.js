@@ -5,12 +5,12 @@ import React, { useContext} from 'react';
 
 
 
-import './StudentProfile.css';
+import './TeacherProfile.css';
 
 import { Link } from 'react-router-dom';
 
 
-function StudentProfile() {
+function TeacherProfile() {
 
      
 
@@ -28,7 +28,7 @@ function StudentProfile() {
                         <label className='admin_input' >Anjali Rajendran</label> 
                         </div>
                         <div className="profile-class">
-                        <label className='profile_label'>Class</label>
+                        <label className='profile_label'>Subject</label>
                         <label className='admin_input' >Data Mining</label>
                         </div>
                         <div className="profile-email">
@@ -36,16 +36,12 @@ function StudentProfile() {
                         <label className='admin_input' >anjalirajendran.mec@gmail.com</label>
                         </div>
                         <div className="profile-rollno">
-                        <label className='profile_label'>Roll NO</label>
+                        <label className='profile_label'>Teacher ID</label>
                         <label className='admin_input' >CSUA10</label>
                         </div>
-                        <div className="profile-yop">
-                        <label className='profile_label'>Year of Passing</label>
-                        <label className='admin_input' >2023</label>
-                        </div>
                         <div className="profile_btns">
-                          <Link to='/pendingassn'>
-                       <button>View Pending Assignments</button></Link>
+                            <Link to='/submitassn'>
+                       <button>View Submitted Assignments</button></Link>
                         </div>
 
                     </div>
@@ -57,4 +53,4 @@ function StudentProfile() {
     )
 }
 
-export default StudentProfile
+export default TeacherProfile

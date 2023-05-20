@@ -5,3 +5,6 @@
     padding: 2.5rem;
     gap: 1rem;
 }
+.h1{
+    color: var(--secondary-color);
+}
