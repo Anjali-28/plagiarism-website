@@ -1,5 +1,7 @@
 import React from 'react'
 import { useState } from "react";
+import './Submitassn_comp.css'
+
 
 function Submitassn_comp() {
     const [file, setFile] = useState()
@@ -30,11 +32,13 @@ function Submitassn_comp() {
     }
 
   return (
-    <div>
-        <h2>Submit assignment</h2>
+    <div className='Submitassn_comp'>
+        <div className='submit_head'>
+            <h2>Submit assignment</h2>
+        </div>
         <form onSubmit={handleUpload}>
             <input type="file" name="file" onChange={handleFile}/>
-            <button>Upload</button>
+            <button className='submitassn_btn'>Upload</button>
         </form>
     </div>
   )

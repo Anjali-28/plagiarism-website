@@ -3,7 +3,7 @@ import { Submitassn_comp } from '../../components'
 
 function Submitassn() {
   return (
-    <div>
+    <div className='Submitassn'>
         <Submitassn_comp />
     </div>
   )
