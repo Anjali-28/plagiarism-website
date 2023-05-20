@@ -10,11 +10,11 @@ function Pendingassn() {
         </div>
         <div className='pending_cards'>
             <Pendingassn_comp />
+            {/* <Pendingassn_comp />
             <Pendingassn_comp />
             <Pendingassn_comp />
             <Pendingassn_comp />
-            <Pendingassn_comp />
-            <Pendingassn_comp />
+            <Pendingassn_comp /> */}
         </div>
     </div>
   )

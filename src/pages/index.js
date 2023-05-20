@@ -9,4 +9,5 @@ export { default as Pendingassn } from './Pendingassn/Pendingassn'
 export { default as Submitassn } from './Submitassn/Submitassn'
 export { default as Subcomplete } from './Subcomplete/Subcomplete'
 export { default as TeacherProfile} from './TeacherProfile/TeacherProfile'
+export { default as About} from './About/About'
 

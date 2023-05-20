@@ -7,7 +7,7 @@ function Pendingassn_comp() {
   return (
     <div className='Pendingassn_comp'>
         <div className='pending_img'>
-            <img src='https://avatars.githubusercontent.com/u/43471295?v=4' className='pending_img'/>
+            <img src='https://plus.unsplash.com/premium_photo-1672914187190-3bb9eaed6a27?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmxvY2tjaGFpbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60' className='pending_img'/>
         </div>
         <div className='pending_body'>
             <div className='pending_title'>
