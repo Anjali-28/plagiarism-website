@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import { AiOutlineClockCircle, AiOutlineCalendar } from "react-icons/ai";
 import './Pendingassn_comp.css'
 
@@ -24,7 +25,9 @@ function Pendingassn_comp() {
                 </div>
             </div>
             <div className='pending_button'>
+                <Link to="/Submitassn">
                 <button className='pending_sub_btn'>Submit</button>
+               </Link>
             </div>
         </div>
     </div>
