@@ -1,6 +1,7 @@
 import React from 'react'
 
 import './HomeCard.css'
+import { Link } from 'react-router-dom'
 
 function HomeCard({ image, title, desc }) {
   return (
@@ -9,7 +10,7 @@ function HomeCard({ image, title, desc }) {
         <div className="home_content">
             <span className="home_title">{title}</span>
             <p className="home_description">{desc}</p>
-            <div className='h_btns'><button>Get Started</button></div>
+            <div className='h_btns'><Link to='/about'><button>Get Started</button></Link></div>
         </div>
     </div>
   )

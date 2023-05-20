@@ -23,14 +23,14 @@ function Navbar() {
     <Link className='nav_links' to='/'>
       Home
     </Link>
-    <Link className='nav_links' to='/tutorial'>
-      Tutorial
+    <Link className='nav_links' to='/about'>
+      About
     </Link>
-    <Link className='nav_links'to ='/teachersignup'>
+    <Link className='nav_links'to ='/teacher'>
       Teacher
           </Link>
-    <Link className='nav_links' to='/testimonials'>
-      Testimonials
+    <Link className='nav_links' to='/student'>
+      Student
     </Link>
     <Link className='nav_links' to='/contactus'>
       Contact Us

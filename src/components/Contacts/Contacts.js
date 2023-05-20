@@ -14,7 +14,7 @@ function Contacts() {
                   <div className='contact_info'>
                     <div className='contact_header'>
                       <h1>Contact Details</h1>
-                      <p>lorem ipsum doler amor helow by heldsgs</p>
+                      <p>We are here to support you every step of the way. If you have any questions, concerns, or suggestions, our friendly and knowledgeable support team is ready to assist you.</p>
                     </div>
                     <div className='contact_contents'>
                       <div className='contact_item'>
