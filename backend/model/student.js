@@ -22,8 +22,7 @@ StudentSchema = new mongoose.Schema({
         required: true
     },
     student_id: {
-        type: 'string',
-        required: true
+        type: Number,
     },
     year: {
         type: 'string'
