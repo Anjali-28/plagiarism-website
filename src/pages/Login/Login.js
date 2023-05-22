@@ -32,7 +32,11 @@ const Login = () => {
             setIsLoggedIn(true);
             // cookies.set('auth', response.data.isLoggedIn)
             // cookies.set("auth", response.data.token, { path: "/" });
-            navigate("/studentprofile");
+            const propsToPass = {
+              email: email
+            };
+            console.log("in Login page: "+propsToPass.email);
+            navigate("/studentprofile", {state: propsToPass});
           } else {
             setIsLoggedIn(false);
           }

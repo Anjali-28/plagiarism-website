@@ -16,7 +16,7 @@ const upload=multer({
     storage: Storage
 }).single('submission')
 
-assgnRoutes.get('/assignment/test', (req, res)=>{
+assgnRoutes.get('/api/test', (req, res)=>{
     console.log('Tstinggg');
     res.send('Assignment db teesttt')
 })

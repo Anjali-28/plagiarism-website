@@ -9,9 +9,12 @@ userRoutes.get('/test', (req,res)=>{
 userRoutes.get('/', (req,res)=>{
     Student.find().then(student=>res.json(student)).catch(err => res.status(404).json({err: "No students found"}));
 });
-userRoutes.get('/:id', (req,res)=>{
-    Student.findById(req.params.id)
-    .then(student=>res.json(student))
+userRoutes.get('/api/:email', async (req,res)=>{
+    const {email}=req.params
+    await Student.findOne({email})
+    .then(student=>{
+        console.log("student: "+student);
+        res.json(student)})
     .catch(err => res.status(404).json({err: "No students found"}));
 });
 

@@ -6,7 +6,7 @@ AssignmentSchema = new mongoose.Schema({
         required: true
     },
     student_id: {
-        type: 'string',
+        type: Number,
         required: true
     },
     year:{

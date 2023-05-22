@@ -47,7 +47,6 @@ const Signup = () => {
                 console.log("response:"+response.data);
                 if (response.data.status) {
                   setIsSignupSuccess(true);
-                  console.log("In onSubmit response status");
                   alert(
                     "Yay! Account created successfully. Please login to continue"
                   );
