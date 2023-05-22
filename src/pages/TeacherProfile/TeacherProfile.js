@@ -40,7 +40,7 @@ function TeacherProfile() {
                         <label className='admin_input' >CSUA10</label>
                         </div>
                         <div className="profile_btns">
-                            <Link to='/submitassn'>
+                            <Link to='//subcomplete'>
                        <button>View Submitted Assignments</button></Link>
                         </div>
 
